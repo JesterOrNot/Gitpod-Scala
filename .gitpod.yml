@@ -3,3 +3,7 @@ image:
 tasks:
   - init: scalac Hello.scala
     command: scala Hello
+
+vscode:
+  extensions:
+    - scalameta.metals@1.8.0:COLt/susY54OcSJMqJKofQ==
