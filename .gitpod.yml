@@ -1,7 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: sbt ~run
+  - command: sbt ~run
 vscode:
   extensions:
     - scalameta.metals@1.8.0:COLt/susY54OcSJMqJKofQ==
