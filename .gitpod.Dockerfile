@@ -1,5 +1,5 @@
 FROM gitpod/workspace-full
 
-USER gitpod
+USER root
 
-RUN sudo bash -cl "brew install scala coursier/formulas/coursier ammonite-repl"
+RUN brew install scala coursier/formulas/coursier ammonite-repl
