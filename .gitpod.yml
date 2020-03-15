@@ -4,5 +4,4 @@ tasks:
   - command: sbt ~run
 vscode:
   extensions:
-    - scalameta.metals@1.8.0:COLt/susY54OcSJMqJKofQ==
     - scala-lang.scala@0.3.9:kklqw+c/dNRmtTU8B5repw==
