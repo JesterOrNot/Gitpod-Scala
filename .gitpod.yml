@@ -1,9 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: scalac Hello.scala
-    command: scala Hello
-
+  - init: sbt ~run
 vscode:
   extensions:
     - scalameta.metals@1.8.0:COLt/susY54OcSJMqJKofQ==
